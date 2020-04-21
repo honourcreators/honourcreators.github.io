@@ -1,5 +1,15 @@
 /* ! normalize.css v1.0.0 | MIT License | git.io/normalize */
+/* ==========================================================================
+Ad
+========================================================================== */
 
+/* STICKY IMAGE FOR ADVATISEMENT   STICKY IMAGE FOR ADVATISEMENT  STICKY IMAGE FOR ADVATISEMENT    STICKY IMAGE FOR ADVATISEMENT   STICKY IMAGE FOR ADVATISEMENT*/
+img.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 200px;
+}
 /* ==========================================================================
 HTML5 display definitions
 ========================================================================== */
