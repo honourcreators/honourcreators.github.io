@@ -34,7 +34,11 @@ img.sticky {
 	position:fixed;
 	width: 100%;
 	height: 100vh;
+<<<<<<< HEAD
 	background: #fff url('https://honourcreators.github.io/img/white.gif')
+=======
+	background: #fff url('https://honourcreators.github.io/loading.gif')
+>>>>>>> 1d6ad8c253d6c896276e50daeefa16a8860bcdbb
 	 no-repeat center;
 	z-index: 99999;
 }
