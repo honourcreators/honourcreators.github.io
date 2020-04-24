@@ -931,6 +931,8 @@ Screenshots
 .screenshots figure img {
     width: 100%;
     height: 100%;
+	padding:2px;
+   border: 2px solid #fff;
     -webkit-transition: all 300ms ease-in-out;
     transition: all 300ms ease-in-out;
 }
