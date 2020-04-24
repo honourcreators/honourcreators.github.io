@@ -20,7 +20,24 @@ audio, canvas, video {
     *display: inline;
     *zoom: 1;
 }
+/* STICKY IMAGE FOR ADVATISEMENT   STICKY IMAGE FOR ADVATISEMENT  STICKY IMAGE FOR ADVATISEMENT    STICKY IMAGE FOR ADVATISEMENT   STICKY IMAGE FOR ADVATISEMENT*/
+img.sticky {
 
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 150px;
+}
+
+
+#runacircle{
+	position:fixed;
+	width: 100%;
+	height: 100vh;
+	background: #fff url('https://honourcreators.github.io/img/white.gif')
+	 no-repeat center;
+	z-index: 99999;
+}
 /*
 * Prevents modern browsers from displaying `audio` without controls.
 * Remove excess height in iOS 5 devices.
@@ -30,12 +47,63 @@ audio:not([controls]) {
     height: 0;
 }
 
+.gradient-bg,
+.site-btn.sb-gradients,
+.member-social a:hover,
+.single-blog-page .social-share a:hover,
+.comment .comment-content .c-btn:hover,
+.comment-form label {
+	/* FF3.6-15 */
+	/* Chrome10-25,Safari5.1-6 */
+	background: -webkit-gradient(linear, left top, right top, from(#3e2bce), color-stop(100%, #2dd3aa), color-stop(100%, #2dd3aa), to(#2dd3aa));
+	background: -o-linear-gradient(left, #3e2bce 0%, #2dd3aa 100%, #2dd3aa 100%, #2dd3aa 100%);
+	background: linear-gradient(to right, #3e2bce 0%, #2dd3aa 100%, #2dd3aa 100%, #2dd3aa 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3e2bce', endColorstr='#2dd3aa', GradientType=1);
+	/* IE6-9 */
+}
 /*
 * Addresses styling for `hidden` attribute not present in IE 7/8/9, Firefox 3, * and Safari 4.
 * Known issue:no IE 6 support.
 */
 [hidden] {
     display: none
+}
+
+
+.subhankar{
+	padding-top: 15px;
+	
+	position: absolute;
+  left: 10px;
+  right: 10px;
+  top: 250px;
+	z-index: 2;
+}
+
+.member-social {
+	padding-top: 15px;
+	
+	position: absolute;
+  left: 10px;
+  top: 355px;
+	z-index: 5;
+}
+
+div.bunty {
+  text-align: justify;
+  line spacing : 2px
+}
+
+.member-social a {
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	border-radius: 50%;
+	background: #037f5f;
+	color: #fff;
+	padding-top: 6px;
+	margin: 0 1px;
 }
 
 /* ==========================================================================
@@ -645,12 +713,12 @@ Custom Slider Controls (Flickity)
     height: 13px;
     opacity: 1;
     background: transparent;
-    border: 2px solid white;
+    border: 2px solid black;
     -webkit-transition: background 0.3s;
     transition: background 0.3s;
 }
 .flickity-page-dots .dot.is-selected {
-    background: white;
+    background: black;
 }
 
 /* ==========================================================================
