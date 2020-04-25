@@ -516,10 +516,10 @@ p {
     line-height: 25px;
 }
 a {
-    color: #73d0da
+    color: #6ddea5
 }
 a:hover, a:focus {
-    color: #73d0da;
+    color: #6ddea5;
     text-decoration: none;
 }
 .texture-overlay {
@@ -540,11 +540,11 @@ Buttons
     padding: 20px 50px;
     border-radius: 3px;
     background-color: #fff;
-    color: #4b98a9;
+    color: #037f5f;
     font-size: 16px;
 }
 .use-btn:hover, .use-btn:focus {
-    background-color: #73d0da;
+    background-color: #6ddea5;
     color: #fff;
     text-decoration: none;
 }
@@ -557,8 +557,8 @@ Buttons
     font-size: 16px;
 }
 .learn-btn:hover, .download-btn:hover, .learn-btn:focus, .download-btn:focus {
-    border-color: #73d0da;
-    color: #73d0da;
+    border-color: #6ddea5;
+    color: #6ddea5;
     text-decoration: none;
 }
 .read-more-btn {
@@ -697,11 +697,11 @@ section.video a {
     color: #323a45
 }
 section.video a:hover, section.video a:focus {
-    color: #73d0da;
+    color: #6ddea5;
     text-decoration: none;
 }
 section.video a:hover i, section.video a:focus i {
-    color: #73d0da
+    color: #6ddea5
 }
 
 /* ==========================================================================
@@ -959,7 +959,7 @@ Screenshots
     color: #fff
 }
 .screenshots figcaption a:hover, .screenshots figcaption a:focus {
-    color: #73d0da
+    color: #6ddea5
 }
 .screenshots figure:hover figcaption, .screenshots figure:focus figcaption {
     opacity: 1
@@ -1098,8 +1098,8 @@ Nav Overlay
     transition: all 300ms ease-in-out;
 }
 .overlay ul li a:hover, .overlay ul li a:focus {
-    border-color: #73d0da;
-    color: #73d0da;
+    border-color: #6ddea5;
+    color: #6ddea5;
 }
 
 /* Effects */
