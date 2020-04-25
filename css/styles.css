@@ -801,7 +801,7 @@ Features List
     margin-right: 25px;
     width: 90px;
     height: 90px;
-    border: solid 2px #4e9ba3;
+    border: solid 2px #037f5f;
     border-radius: 50%;
     vertical-align: top;
     text-align: center;
@@ -809,7 +809,7 @@ Features List
     line-height: 90px;
 }
 .feature-icon i {
-    color: #4e9ba3
+    color: #037f5f
 }
 
 /* ==========================================================================
