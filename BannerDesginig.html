@@ -159,13 +159,9 @@
         <blockquote
           cite="http://www.denisehoran.com/news-articles/Why-Use-a-Consultant-for-Your-Business--74-news.htm"
         >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
-          officiis reprehenderit et aliquam nisi nam consectetur corporis error,
-          modi ullam fugiat necessitatibus quod ratione, magnam aut impedit,
-          sint voluptatem sapiente. Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Cum nesciunt quo cupiditate ad, corporis,
-          repellendus error totam a neque qui itaque iste, nisi quisquam omnis.
-          Quo omnis accusantium facilis reprehenderit.
+          Banners are typically used to draw attention to a business or an event. They are instantly noticeable because of their size or their color, which draws the eye. In a busy area, a banner can be used to separate a business from the rest of the crowd. Large banners are typically used as tools for an announcement.<br><br>
+Magazines can act as a tangible, unified vision of your company or brand. They are an opportunity to position your brand and message in print. Print publications can inform employees – and the world – about your business and its offerings.
+
         </blockquote>
       </div>
       <div class="col-md-5 text-center">
@@ -348,44 +344,54 @@
       <img src="images/honourcreators.png" alt="honour creators logo" />
     </section>
     <!-- service quote section END -->
-    <!-- form START -->
+    	<!-- form START -->
     <section
-      class="container-fluid form-section banner-service"
-      id="form-section"
-    >
+      class="container-fluid form-section graphics-service"
+      id="form-section">
       <h2>Place Your Order Now</h2>
+	  
       <p class="section-description">
         it's never too late to start, get your amazing logo now
       </p>
-      <form>
+	  <script type="text/javascript">var submitted=false;</script>
+    
+    
+						<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"      
+						onload="if(submitted) {window.location='congo.html';}"> </iframe> 
+      <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScqleBjCovY2SXrNJJ7PH3D6c2lFwU82sPcnkjOpMem-1AF5Q/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true">
         <div class="form-group">
-          <label>Name</label>
-          <input type="text" class="form-control" />
+         <label for="Name">Your Name:</label>
+       <input type="text" class="form-control" id="Name" required class="single-input" required name="entry.511694406">
+       
         </div>
         <div class="form-group">
           <label>Phone Number</label>
-          <input type="number" class="form-control" />
+           <input type="text" class="form-control" pattern="\d{10}" id="phone" required name="entry.1606664775">
         </div>
-        <div class="form-group">
-          <label for="exampleInputEmail1">Email address</label>
-          <input type="email" class="form-control" />
-          <small id="emailHelp" class="form-text text-muted"
-            >We'll never share your email with anyone else.</small
-          >
+      <div class="form-group">
+          <label for="Email">Email address</label>
+          <input type="email" class="form-control" id="Email" required class="single-input" required name="entry.1672319680">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          
         </div>
         <div class="form-group">
           <label for="inputState">Choose Your Budget</label>
-          <select id="inputState" class="form-control">
-            <option selected>Choose...</option>
-            <option>₹4,999-₹9,999</option>
-            <option>₹10,000-₹50,000</option>
-            <option>Coustomised Price</option>
+      
+		<select id="inputState" class="form-control" required name="entry.1221403280">
+            <option  value="">Select Here</option>
+			<option  value="₹100/-">₹100/-</option>
+            <option  value="₹500/-">₹500/-</option>
+            <option value="₹800/-">₹800/-</option>
+            <option value="Customized Budget">Customized Budget</option>
           </select>
+		   <small id="emailHelp" class="form-text text-muted">Selection of <b>"Customized Budget"</b> means, You will offer your budget, we will deliver
+              our best product acccording to your affordability..</small>
         </div>
         <button type="submit" class="btn btn-primary">
           <i class="fas fa-shopping-cart mr-2"></i>Place Order
         </button>
       </form>
+	  
     </section>
     <!-- form END -->
     <!-- back to top -->
@@ -464,6 +470,9 @@
               <a href="index.html#blog-section">
                 <li>Blogs</li>
               </a>
+			    <a href="Offers.html">
+                <li>Offers</li>
+              </a>
               <a href="aboutus.html">
                 <li>About</li>
               </a>
@@ -479,10 +488,10 @@
               />
             </video>
             <p class="mb-3">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Consectetur consequuntur
+              It is a technical organization in the field of digital communication <a href="AboutUs.html">....Know More</a>
+         
             </p>
-            <p>© 2020 HonourCreators developers group</p>
+            <p>© 2020, Developer Group of "HonourCreators"</p>
             <p>All rights reserved</p>
           </div>
 
@@ -493,7 +502,7 @@
               >HonourCreators
             </p>
             <p>
-              <i class="fa fa-phone mr-1" aria-hidden="true"></i>(86) 266 4520
+              <i class="fa fa-phone mr-1" aria-hidden="true"></i>(+91) 9337663465
             </p>
             <p>
               <i class="fa fa-envelope mr-1" aria-hidden="true"></i

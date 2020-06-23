@@ -348,45 +348,54 @@
       <img src="images/honourcreators.png" alt="honour creators logo" />
     </section>
     <!-- service quote section END -->
-    <!-- form START -->
+    	<!-- form START -->
     <section
-      class="container-fluid form-section logo-service"
-      id="form-section"
-    >
+      class="container-fluid form-section graphics-service"
+      id="form-section">
       <h2>Place Your Order Now</h2>
+	  
       <p class="section-description">
         it's never too late to start, get your amazing logo now
       </p>
-      <form>
+	  <script type="text/javascript">var submitted=false;</script>
+    
+    
+						<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"      
+						onload="if(submitted) {window.location='congo.html';}"> </iframe> 
+      <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdbh2vOZyAIPiKB9wfaK74AMRCYjBUxqjKMZDiWhAzCuoPHww/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true">
         <div class="form-group">
-          <label>Name</label>
-          <input type="text" class="form-control" />
+         <label for="Name">Your Name:</label>
+       <input type="text" class="form-control" id="Name" required class="single-input" required name="entry.1363298538">
+       
         </div>
         <div class="form-group">
           <label>Phone Number</label>
-          <input type="number" class="form-control" />
+           <input type="text" class="form-control" pattern="\d{10}" id="phone" required name="entry.398944910">
         </div>
-        <div class="form-group">
-          <label for="exampleInputEmail1">Email address</label>
-          <input type="email" class="form-control" />
-          <small id="emailHelp" class="form-text text-muted"
-            >We'll never share your email with anyone else.</small
-          >
+      <div class="form-group">
+          <label for="Email">Email address</label>
+          <input type="email" class="form-control" id="Email" required class="single-input" required name="entry.792272700">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          
         </div>
         <div class="form-group">
           <label for="inputState">Choose Your Budget</label>
-          <select id="inputState" class="form-control">
-            <option selected>Choose...</option>
-            <option>₹1,499-₹1,999</option>
-            <option>₹2,000-₹5,000</option>
-            <option>₹6,000-₹20,000</option>
-            <option>Coustomised Price</option>
+      
+		<select id="inputState" class="form-control" required name="entry.974910367">
+            <option  value="">Select Here</option>
+			<option  value="₹500">₹500</option>
+            <option  value="₹1,000">₹1,000</option>
+            <option value="₹1,500">₹1,500</option>
+            <option value="Customize Budget">Customize Budget</option>
           </select>
+		   <small id="emailHelp" class="form-text text-muted">Selection of <b>"Customize Budget"</b> means, You will offer your budget, we will deliver
+              our best product acccording to your affordability..</small>
         </div>
         <button type="submit" class="btn btn-primary">
           <i class="fas fa-shopping-cart mr-2"></i>Place Order
         </button>
       </form>
+	  
     </section>
     <!-- form END -->
     <!-- back to top -->
@@ -465,6 +474,9 @@
               <a href="index.html#blog-section">
                 <li>Blogs</li>
               </a>
+			    <a href="Offers.html">
+                <li>Offers</li>
+              </a>
               <a href="aboutus.html">
                 <li>About</li>
               </a>
@@ -480,10 +492,10 @@
               />
             </video>
             <p class="mb-3">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Consectetur consequuntur
+              It is a technical organization in the field of digital communication <a href="AboutUs.html">....Know More</a>
+             
             </p>
-            <p>© 2020 HonourCreators developers group</p>
+            <p>© 2020, Developer Group of "HonourCreators"</p>
             <p>All rights reserved</p>
           </div>
 
@@ -494,7 +506,7 @@
               >HonourCreators
             </p>
             <p>
-              <i class="fa fa-phone mr-1" aria-hidden="true"></i>(86) 266 4520
+              <i class="fa fa-phone mr-1" aria-hidden="true"></i>(+91) 9337663465
             </p>
             <p>
               <i class="fa fa-envelope mr-1" aria-hidden="true"></i
