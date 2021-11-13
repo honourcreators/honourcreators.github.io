@@ -69,7 +69,7 @@
     font-weight: bold;
   }
   .testimonial .testimonial-card h5 {
-    color: var(--blue);
+    color: var(--main-color);
   }
   .testimonial .testimonial-card .ratings {
     display: flex;
@@ -83,7 +83,7 @@
 
 
 
-  
+
 html{
     font-size: 62.5%;
     scroll-behavior: smooth;
