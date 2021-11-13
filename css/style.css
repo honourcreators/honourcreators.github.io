@@ -51,6 +51,39 @@
     filter: grayscale(0);
   }
 
+
+  /* testimonial  */
+.testimonial .testimonial-card {
+    padding: 2em 1em;
+    text-align: center;
+    border: 1px solid #d8d8d8;
+    border-radius: 8px;
+    margin: 1em;
+    box-shadow: 5px 5px 10px #d9d9d9, -5px -5px 10px #ffffff;
+  }
+  .testimonial .testimonial-card img.user {
+    width: 35%;
+    margin: 1em auto;
+  }
+  .testimonial .testimonial-card h3 {
+    font-weight: bold;
+  }
+  .testimonial .testimonial-card h5 {
+    color: var(--blue);
+  }
+  .testimonial .testimonial-card .ratings {
+    display: flex;
+    justify-content: center;
+  }
+  .testimonial .testimonial-card .ratings img.star {
+    margin: 0 0.3em;
+  }
+
+
+
+
+
+  
 html{
     font-size: 62.5%;
     scroll-behavior: smooth;
