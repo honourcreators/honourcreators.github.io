@@ -331,6 +331,32 @@ section{
     padding: 1rem 0;
 }
 
+.about .row .content li{
+    font-size:1.5rem;
+    color:var(--light-color);
+    line-height: 1.8;
+   
+}
+
+.about .row .content ul{
+    font-size:1.5rem;
+    color:var(--light-color);
+    line-height: 1.8;
+    padding-left: 2rem;
+    list-style: none;
+}
+
+.about .row .content ul li::before{
+    content: '✔';
+    padding-right: 0.5rem;
+}
+
+.about .row .content li b{
+    
+    color:var(--main-color);
+
+}
+
 .about .row .content .icons-container{
     display: flex;
     flex-wrap: wrap;
