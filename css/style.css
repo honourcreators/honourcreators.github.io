@@ -388,6 +388,99 @@ section{
     padding-top: 1rem;
 }
 
+
+
+.technology .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:1.5rem;
+}
+
+.technology .row .image{
+    flex:1 1 45rem;
+    padding: 2rem;
+}
+
+.technology .row .image img{
+    width: 100%;
+}
+
+.technology .row .content{
+    flex:1 1 45rem;
+}
+
+.technology .row .content .title{
+    font-size:3rem;
+    color:var(--black);
+}
+
+.technology .row .content p{
+    font-size:1.5rem;
+    color:var(--light-color);
+    line-height: 1.8;
+    padding: 1rem 0;
+}
+
+.technology .row .content li{
+    font-size:1.5rem;
+    color:var(--light-color);
+    line-height: 1.8;
+   
+}
+
+.technology .row .content ul{
+    font-size:1.5rem;
+    color:var(--light-color);
+    line-height: 1.8;
+    padding-left: 2rem;
+    list-style: none;
+}
+
+.technology .row .content ul li::before{
+    content: '✔';
+    padding-right: 0.5rem;
+}
+
+.technology .row .content li b{
+    
+    color:var(--main-color);
+
+}
+
+.technology .row .content .icons-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1rem;
+    padding-top: 2rem;
+}
+
+.technology .row .content .icons-container .icons{
+    flex:1 1 1rem;
+    border-radius: .5rem;
+    border:var(--border);
+    padding:1.5rem;
+    text-align: center;
+}
+
+.technology .row .content .icons-container .icons img{
+    border-radius: 50%;
+    background: var(--bg);
+    color:var(--main-color);
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+}
+
+.technology .row .content .icons-container .icons h3{
+    color:var(--light-color);
+    font-size: 1.6rem;
+    padding-top: 1rem;
+}
+
+
+
 .portfolio .box-container{
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
