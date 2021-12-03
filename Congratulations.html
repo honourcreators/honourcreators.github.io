@@ -1,41 +1,133 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Congratulations</title>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HonourCreators</title>
+    <link rel="icon" href="images/honourcreators.png" type="image/png" />
+    <meta
+    name="description"
+    content="HonourCreators is the all in one solution for Grow your Business Digitally. We offer the services like Website Development, Application Development, Logo Designing, AD making, Digital Marketing, Graphics designing, and more..."
+  />
+    <!-- font awesome cdn link  -->
 
-    <style media="screen">
-      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
-      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px 16px; border-radius: 3px; }
-      #message h3 { color: #888; font-weight: normal; font-size: 16px; margin: 16px 0 12px; }
-      #message h1 { color: #0077ff; font-weight: bold; font-size: 22px; margin: 0 0 16px; }
-      
-      #message h2 { font-size: 16px; font-weight: bold; color: rgba(0,0,0,0.6); margin: 0 0 8px;}
-      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
-      #message a { display: block; text-align: center; background: #080808; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
-      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
-      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
-      @media (max-width: 600px) {
-        body, #message { margin-top: 0; background: white; box-shadow: none; }
-        body { border-top: 16px solid #070400; }
-      }
-    </style>
-  </head>
-  <body>
-    <div id="message">
-      <hr>
-      <p>We are team <b>HonourCreators</b>; We help you to <i>Grow Your Business Digitally!</i></p>
-<hr>
-<br>
-      <h1>Congratulations!</h1>
-       <h2>We get your request sucessfully. Our team will connect with you with in 24hour. Please check your mail for more details.</h2>
-      <p>If you are not getting your mail within 10min, then please find it in your Spam section or feel free to connect our Coustomer-Care.</p>
-      
-      
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- fancybox  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css"
+    />
+<!-- slider  -->
+<link
+rel="stylesheet"
+type="text/css"
+href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+/>
+    <!-- custom css file link  -->
+    
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body onload="ramesh()" data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+  
+    <div id = "runacircle"></div>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="index.html" class="logo">HonourCreators</a>
+
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="https://honourcreators.com/portfolio.pdf" target="_blank">Portfolio</a>
+        <a href="career.html">Career</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+  <u></u><h1 class="heading1"> About Us </h1></u>
+  
+  <div class="row">
+
+      <div class="image">
+          <img src="successful.svg" alt="">
+      </div>
+
+      <div class="content">
+          <h3 class="title">Congratulations!</h3>
+          <p>We get your request sucessfully. Our team will connect with you with in 24hour. Please check your mail for more details.</p>
+          <p>If you are not getting your mail within 10min, then please find it in your Spam section or feel free to connect our Coustomer-Care.</p>
+          
+          
+    
+          <a href="index.html" class="btn">Go to Home</a> 
+          
+      </div>
+
+  </div>
+
+</section>
+
+<!-- about section ends -->
+<!-- home section ends -->
 
 
-      <h3> <a href="http://www.honourcreators.com">Return Home</a></h3> 
-    </div>
-  </body>
+
+ 
+<!-- footer  -->
+
+
+
+
+
+
+
+
+
+<!-- loader -->
+<script>
+    var preloader = document.getElementById('runacircle');
+    
+    function ramesh(){
+    
+        preloader.style.display='none';
+    }
+    
+    </script>
+<!-- slider  -->
+<script
+type="text/javascript"
+src="//code.jquery.com/jquery-1.11.0.min.js"
+></script>
+<script
+type="text/javascript"
+src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+></script>
+<script
+type="text/javascript"
+src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+<script src="./index.js"></script>
+
+
+</body>
 </html>
