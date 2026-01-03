@@ -890,3 +890,90 @@ section{
     }
 
 }
+
+
+
+:root {
+  --banner-height: 48px;
+}
+
+/* ===== Permanent Closure Banner ===== */
+.closure-banner {
+  background: #b00020;
+  color: #ffffff;
+  text-align: center;
+  padding: 12px 16px;
+  font-size: 14px;
+  font-weight: 600;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: var(--banner-height);
+  z-index: 10001;
+}
+
+.closure-banner a {
+  color: #ffd700;
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+/* Push navbar below banner */
+.header {
+  margin-top: var(--banner-height);
+}
+
+/* ===== Terms Modal ===== */
+.terms-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10002;
+}
+
+.terms-box {
+  background: #ffffff;
+  padding: 30px;
+  max-width: 420px;
+  width: 90%;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.terms-box h2 {
+  margin-bottom: 12px;
+  font-size: 20px;
+}
+
+.terms-box p {
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 16px;
+}
+
+.checkbox {
+  display: block;
+  margin-bottom: 18px;
+  font-size: 14px;
+}
+
+.terms-box button {
+  background: #b00020;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.terms-box button.enabled {
+  cursor: pointer;
+  background: #2e7d32;
+  opacity: 1;
+}
