@@ -37,7 +37,14 @@ href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
   
     <div id = "runacircle"></div>
     
-<!-- header section starts  -->
+
+<!-- Permanent Closure Banner -->
+<div class="closure-banner">
+  ⚠️ This website is permanently closed and preserved as part of the journey.
+📘 <a href="https://linktr.ee/buy.oyml" target="_blank">One Year, Many Lessons</a>
+
+</div>    
+
 
 <header class="header">
 
@@ -810,6 +817,54 @@ href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
 
 
 
+<!-- Terms & Conditions Modal -->
+<div id="termsModal" class="terms-overlay">
+  <div class="terms-box">
+    <h2>Terms & Conditions</h2>
+    <p>
+    <p>
+      This website represents a startup founded during my college days that is now
+      permanently closed. It is available only for informational and exploratory purposes.
+    </p>
+    <p>
+      By continuing, you acknowledge that no services or active operations are offered here,
+      and the content reflects real experiences and lessons from this journey, explored in
+      detail in the book <strong>One Year Many Lessons</strong>.
+    </p>
+    <p>
+      This website itself is part of the journey and is preserved as it was.
+    </p>
+
+    </p>
+
+    <label class="checkbox">
+      <input type="checkbox" id="acceptTerms" />
+      I understand and agree to the terms.
+    </label>
+
+    <button id="proceedBtn" disabled>Proceed</button>
+  </div>
+</div>
+
+<script>
+  const modal = document.getElementById("termsModal");
+  const checkbox = document.getElementById("acceptTerms");
+  const button = document.getElementById("proceedBtn");
+
+  if (localStorage.getItem("termsAccepted") === "true") {
+    modal.style.display = "none";
+  }
+
+  checkbox.addEventListener("change", () => {
+    button.disabled = !checkbox.checked;
+    button.classList.toggle("enabled", checkbox.checked);
+  });
+
+  button.addEventListener("click", () => {
+    localStorage.setItem("termsAccepted", "true");
+    modal.style.display = "none";
+  });
+</script>
 
 
 
