@@ -898,6 +898,7 @@ section{
 }
 
 /* ===== close banner on top ===== */
+/* ===== Permanent Closure Banner ===== */
 .closure-banner {
   background: #b00020;
   color: #ffffff;
@@ -906,34 +907,49 @@ section{
   font-size: 14px;
   font-weight: 600;
 
-  position: relative;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: auto;
   z-index: 10001;
   box-sizing: border-box;
 }
 
-.closure-banner,
 .closure-banner a {
-  white-space: normal;
-  word-break: break-word;
+  color: #fff;
+  text-decoration: underline;
 }
 
-
+/* ===== Header / Navbar ===== */
 .header {
-  margin-top: 0;
+  position: fixed;        /* or sticky if you prefer */
+  top: 48px;              /* SAME AS banner height */
+  left: 0;
+  width: 100%;
+  z-index: 10000;
+  background: #fff;       /* important */
 }
 
+/* ===== Push page content below header ===== */
+body {
+  padding-top: 110px;     /* banner + navbar height */
+}
+
+/* ===== Mobile adjustments ===== */
 @media (max-width: 480px) {
   .closure-banner {
     font-size: 10px;
     padding: 8px 10px;
   }
+
+  .header {
+    top: 36px;            /* reduced banner height */
+  }
+
+  body {
+    padding-top: 90px;
+  }
 }
-
-
 /* ===== Terms Modal ===== */
 .terms-overlay {
   position: fixed;
